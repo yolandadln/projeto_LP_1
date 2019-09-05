@@ -1,20 +1,16 @@
 import numpy as np
-from random import random
 
 
 class Pessoa:
-    def __init__(self, parametros):
-        self.parametros = parametros
+    def __init__(self):
+        self.sexo = None
+        self.cor = None
+        self.rede = None
+        self.modalidade = None
+        self.ocupacao = None
 
-
-''' 
-parametros é uma lista com os atributos do individuo: 
-elemento_1 = sexo 
-elemento_2 = cor 
-elemento_3 = salario 
-elemento_4 = rede de ensino 
-elemento_5 = modalidade de ensino 
-'''
+    def pessoa(self):
+        pass
 
 
 class Populacao:
@@ -24,8 +20,7 @@ class Populacao:
         self.pessoas = []
 
         for i in range(0, N):
-
-        random.random()
+            random.random()
 
     def amostra(self, n):
         np.random.choice(self.pessoas, n)
