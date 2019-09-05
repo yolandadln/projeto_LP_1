@@ -1,0 +1,5 @@
+sexo,0.0095,mulher=0.428,homem=0.572
+cor,0.012,branca=0.57,preta_parda=0.421
+rede,0.052,publica=0.22,particular=0.78
+modalidade,0.051,presencial=0.822,distancia=0.178
+ocupacao,0.011,ocupados=0.654,nao_ocupados=0.346
