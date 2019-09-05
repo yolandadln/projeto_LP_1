@@ -12,15 +12,16 @@ class Pessoa:
     def pessoa(self):
         pass
 
-
 class Populacao:
-    def __init__(self, N=1000, n=200):
+    def __init__(self, N=1000):
         self.pop = N
-        self.amostra = n
         self.pessoas = []
 
         for i in range(0, N):
-            random.random()
+            p = Pessoa()
+            p.pessoa()
+            self.pessoas.append(p)
 
-    def amostra(self, n):
-        np.random.choice(self.pessoas, n)
+    def amostra(self, n = 100):
+        np.random.choice(self.pessoas, n)    class Populacao:
+    
