@@ -3,11 +3,11 @@ import numpy as np
 
 class Pessoa:
     def __init__(self):
-        self.sexo = None
-        self.cor = None
-        self.rede = None
+        self.sexo       = None
+        self.cor        = None
+        self.rede       = None
         self.modalidade = None
-        self.ocupacao = None
+        self.ocupacao   = None
 
     def pessoa(self):
         pass
@@ -23,5 +23,4 @@ class Populacao:
             self.pessoas.append(p)
 
     def amostra(self, n = 100):
-        np.random.choice(self.pessoas, n)    class Populacao:
-    
+        np.random.choice(self.pessoas, n)
